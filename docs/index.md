@@ -12,8 +12,10 @@ This site is being built out section by section. Once complete, it covers:
 - [**Architecture**](architecture/index.md) — the Sisques Account service
   design: identity, tenancy, sessions and tokens, data model, and current
   implementation status.
-- [**Diagrams**](diagrams/index.md) — system context, token issuance, refresh
-  rotation, and data model diagrams.
+- [**Diagrams**](diagrams/index.md) — [system context](diagrams/system-context.md),
+  [token issuance](diagrams/login-token-issuance.md),
+  [refresh rotation](diagrams/refresh-rotation.md), and
+  [data model](diagrams/data-model-er.md) diagrams.
 - [**Decisions (ADR)**](adr/index.md) — the locked architecture decision
   records for Sisques Account.
 - **Open Questions** — cross-app conflicts that are deliberately left

@@ -43,7 +43,8 @@ tenant_invite
 └─ created_at
 ```
 
-The Data Model (ER) diagram is the entity-relationship twin of this schema.
+The [Data Model (ER) diagram](../../diagrams/data-model-er.md) is the
+entity-relationship twin of this schema.
 
 ## Invitation flow
 

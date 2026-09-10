@@ -6,12 +6,9 @@ never needs to be redrawn or duplicated.
 
 ## Index
 
-The diagram set is authored incrementally; this table is populated with real
-links as each diagram lands.
-
 | Diagram | Shows |
 |---|---|
-| System Context | How users, Sisques Account, the identity provider, and apps talk to each other |
-| Login & Token Issuance | The login flow from user to issued `access_token` / `refresh_token` |
-| Refresh Rotation | Refresh-token rotation and reuse detection |
-| Data Model (ER) | The `app` / `user` / `tenant` / `tenant_membership` / `tenant_invite` schema |
+| [System Context](system-context.md) | How users, Sisques Account, the identity provider, and apps talk to each other |
+| [Login & Token Issuance](login-token-issuance.md) | The login flow from user to issued `access_token` / `refresh_token` |
+| [Refresh Rotation](refresh-rotation.md) | Refresh-token rotation and reuse detection |
+| [Data Model (ER)](data-model-er.md) | The `app` / `user` / `tenant` / `tenant_membership` / `tenant_invite` schema |

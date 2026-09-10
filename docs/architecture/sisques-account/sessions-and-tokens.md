@@ -43,8 +43,9 @@
   click) and reasonable consistency (access revocation is reflected within
   minutes, not instantly).
 
-The Login & Token Issuance and Refresh Rotation diagrams show these flows
-step by step. The underlying decisions are recorded in ADR-0002 (Account
-issues its own JWT), ADR-0005 (JWKS endpoint for key distribution),
-ADR-0006 (refresh rotation with reuse detection), and ADR-0008 (cookies
-scoped to `.sisqueslabs.com`).
+The [Login & Token Issuance](../../diagrams/login-token-issuance.md) and
+[Refresh Rotation](../../diagrams/refresh-rotation.md) diagrams show these
+flows step by step. The underlying decisions are recorded in ADR-0002
+(Account issues its own JWT), ADR-0005 (JWKS endpoint for key
+distribution), ADR-0006 (refresh rotation with reuse detection), and
+ADR-0008 (cookies scoped to `.sisqueslabs.com`).

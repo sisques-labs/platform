@@ -48,6 +48,10 @@ nav:
           - Status & MVP: architecture/sisques-account/status-and-mvp.md
   - Diagrams:
       - Index: diagrams/index.md
+      - System Context: diagrams/system-context.md
+      - Login & Token Issuance: diagrams/login-token-issuance.md
+      - Refresh Rotation: diagrams/refresh-rotation.md
+      - Data Model (ER): diagrams/data-model-er.md
   - Decisions (ADR):
       - Index: adr/index.md
       - Template: adr/template.md

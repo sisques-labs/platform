@@ -15,10 +15,11 @@ Labs Platform.
   roles). This is what allows switching identity providers without
   touching any app.
 
-The System Context diagram shows this same flow: users authenticate against
-Sisques Account, which talks OIDC internally to the active identity-provider
-adapter (Keycloak today), then issues its own token for Gardenia, Nexora and
-other apps — which never talk to the identity provider directly.
+The [System Context diagram](../../diagrams/system-context.md) shows this
+same flow: users authenticate against Sisques Account, which talks OIDC
+internally to the active identity-provider adapter (Keycloak today), then
+issues its own token for Gardenia, Nexora and other apps — which never talk
+to the identity provider directly.
 
 ## Identity provider
 
