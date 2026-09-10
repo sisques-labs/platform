@@ -64,3 +64,4 @@ nav:
       - ADR-0008 Cookies scoped to .sisqueslabs.com: adr/0008-cookies-scoped-to-parent-domain.md
       - ADR-0009 MkDocs + Material for the docs site: adr/0009-mkdocs-material-docs-site.md
       - Template: adr/template.md
+  - Open Questions: open-questions.md

@@ -18,8 +18,8 @@ This site is being built out section by section. Once complete, it covers:
   [data model](diagrams/data-model-er.md) diagrams.
 - [**Decisions (ADR)**](adr/index.md) — all 9 locked architecture decision
   records for Sisques Account.
-- **Open Questions** — cross-app conflicts that are deliberately left
-  unresolved rather than silently decided.
+- [**Open Questions**](open-questions.md) — cross-app conflicts that are
+  deliberately left unresolved rather than silently decided.
 
 For the full repository map (every app and service in the ecosystem), see the
 [repository README](https://github.com/sisques-labs/platform#readme).

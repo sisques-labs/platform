@@ -10,8 +10,8 @@
   `account-api`.
 - `account-web` shipped the cross-domain SSO redirect allowlist.
 - Migration of `gardenia-api` to delegate its auth/tenancy to Sisques
-  Account has not started. See the Open Questions page for the
-  gardenia-api JWT conflict this migration will need to resolve.
+  Account has not started. See [Open Questions](../../open-questions.md)
+  for the gardenia-api JWT conflict this migration will need to resolve.
 
 ## MVP scope
 
