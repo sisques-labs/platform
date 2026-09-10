@@ -9,8 +9,9 @@ to live in an unversioned document outside any repository.
 
 This site is being built out section by section. Once complete, it covers:
 
-- **Architecture** — the Sisques Account service design: identity, tenancy,
-  sessions and tokens, data model, and current implementation status.
+- [**Architecture**](architecture/index.md) — the Sisques Account service
+  design: identity, tenancy, sessions and tokens, data model, and current
+  implementation status.
 - [**Diagrams**](diagrams/index.md) — system context, token issuance, refresh
   rotation, and data model diagrams.
 - [**Decisions (ADR)**](adr/index.md) — the locked architecture decision

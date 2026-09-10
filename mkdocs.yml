@@ -38,6 +38,14 @@ validation:
 
 nav:
   - Home: index.md
+  - Architecture:
+      - Platform Overview: architecture/index.md
+      - Sisques Account:
+          - Overview: architecture/sisques-account/index.md
+          - Tenancy Model: architecture/sisques-account/tenancy.md
+          - Sessions & Tokens: architecture/sisques-account/sessions-and-tokens.md
+          - Data Model: architecture/sisques-account/data-model.md
+          - Status & MVP: architecture/sisques-account/status-and-mvp.md
   - Diagrams:
       - Index: diagrams/index.md
   - Decisions (ADR):
