@@ -38,3 +38,8 @@ validation:
 
 nav:
   - Home: index.md
+  - Diagrams:
+      - Index: diagrams/index.md
+  - Decisions (ADR):
+      - Index: adr/index.md
+      - Template: adr/template.md
