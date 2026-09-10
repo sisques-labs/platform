@@ -8,17 +8,14 @@ considered, and consequences. ADRs are numbered sequentially
 
 ## Index
 
-The ADR set is authored incrementally; this table is populated with real
-links as each ADR lands.
-
 | ADR | Decision |
 |---|---|
-| ADR-0001 | Sisques Account owns identity |
-| ADR-0002 | Account issues its own JWT |
-| ADR-0003 | IdP behind a swappable adapter |
-| ADR-0004 | Two-layer tenancy model |
-| ADR-0005 | JWKS endpoint for key distribution |
-| ADR-0006 | Refresh rotation with reuse detection |
-| ADR-0007 | `platform_admin` bootstrap via env |
-| ADR-0008 | Cookies scoped to `.sisqueslabs.com` |
-| ADR-0009 | MkDocs + Material for the docs site |
+| [ADR-0001](0001-sisques-account-owns-identity.md) | Sisques Account owns identity |
+| [ADR-0002](0002-account-issues-its-own-jwt.md) | Account issues its own JWT |
+| [ADR-0003](0003-idp-behind-swappable-adapter.md) | IdP behind a swappable adapter |
+| [ADR-0004](0004-two-layer-tenancy-model.md) | Two-layer tenancy model |
+| [ADR-0005](0005-jwks-endpoint-key-distribution.md) | JWKS endpoint for key distribution |
+| [ADR-0006](0006-refresh-rotation-reuse-detection.md) | Refresh rotation with reuse detection |
+| [ADR-0007](0007-platform-admin-bootstrap-via-env.md) | `platform_admin` bootstrap via env |
+| [ADR-0008](0008-cookies-scoped-to-parent-domain.md) | Cookies scoped to `.sisqueslabs.com` |
+| [ADR-0009](0009-mkdocs-material-docs-site.md) | MkDocs + Material for the docs site |

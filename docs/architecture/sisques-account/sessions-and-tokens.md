@@ -45,7 +45,11 @@
 
 The [Login & Token Issuance](../../diagrams/login-token-issuance.md) and
 [Refresh Rotation](../../diagrams/refresh-rotation.md) diagrams show these
-flows step by step. The underlying decisions are recorded in ADR-0002
-(Account issues its own JWT), ADR-0005 (JWKS endpoint for key
-distribution), ADR-0006 (refresh rotation with reuse detection), and
-ADR-0008 (cookies scoped to `.sisqueslabs.com`).
+flows step by step. The underlying decisions are recorded in
+[ADR-0002](../../adr/0002-account-issues-its-own-jwt.md) (Account issues
+its own JWT), [ADR-0005](../../adr/0005-jwks-endpoint-key-distribution.md)
+(JWKS endpoint for key distribution),
+[ADR-0006](../../adr/0006-refresh-rotation-reuse-detection.md) (refresh
+rotation with reuse detection), and
+[ADR-0008](../../adr/0008-cookies-scoped-to-parent-domain.md) (cookies
+scoped to `.sisqueslabs.com`).

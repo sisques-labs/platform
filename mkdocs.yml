@@ -54,4 +54,13 @@ nav:
       - Data Model (ER): diagrams/data-model-er.md
   - Decisions (ADR):
       - Index: adr/index.md
+      - ADR-0001 Sisques Account owns identity: adr/0001-sisques-account-owns-identity.md
+      - ADR-0002 Account issues its own JWT: adr/0002-account-issues-its-own-jwt.md
+      - ADR-0003 IdP behind a swappable adapter: adr/0003-idp-behind-swappable-adapter.md
+      - ADR-0004 Two-layer tenancy model: adr/0004-two-layer-tenancy-model.md
+      - ADR-0005 JWKS key distribution: adr/0005-jwks-endpoint-key-distribution.md
+      - ADR-0006 Refresh rotation with reuse detection: adr/0006-refresh-rotation-reuse-detection.md
+      - ADR-0007 platform_admin bootstrap via env: adr/0007-platform-admin-bootstrap-via-env.md
+      - ADR-0008 Cookies scoped to .sisqueslabs.com: adr/0008-cookies-scoped-to-parent-domain.md
+      - ADR-0009 MkDocs + Material for the docs site: adr/0009-mkdocs-material-docs-site.md
       - Template: adr/template.md

@@ -60,4 +60,5 @@ Resolved by configuration, not by a manual command. The
 checked on every login; if the authenticated user's email matches, their
 `user` row is automatically marked `platform_admin=true`. Reproducible in
 any environment (local/staging/prod) without touching the database by
-hand. This decision is recorded as ADR-0007.
+hand. This decision is recorded as
+[ADR-0007](../../adr/0007-platform-admin-bootstrap-via-env.md).

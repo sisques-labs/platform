@@ -34,4 +34,4 @@ rule enforced in the service layer, not expressible as a DB constraint with
 free-form roles).
 
 This split (platform-owned membership vs. app-owned role meaning) is
-recorded as ADR-0004: Two-layer tenancy model.
+recorded as [ADR-0004: Two-layer tenancy model](../../adr/0004-two-layer-tenancy-model.md).

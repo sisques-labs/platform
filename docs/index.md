@@ -16,7 +16,7 @@ This site is being built out section by section. Once complete, it covers:
   [token issuance](diagrams/login-token-issuance.md),
   [refresh rotation](diagrams/refresh-rotation.md), and
   [data model](diagrams/data-model-er.md) diagrams.
-- [**Decisions (ADR)**](adr/index.md) — the locked architecture decision
+- [**Decisions (ADR)**](adr/index.md) — all 9 locked architecture decision
   records for Sisques Account.
 - **Open Questions** — cross-app conflicts that are deliberately left
   unresolved rather than silently decided.

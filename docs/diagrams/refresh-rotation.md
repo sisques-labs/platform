@@ -23,4 +23,5 @@ sequenceDiagram
 Reusing an already-consumed `refresh_token` invalidates the whole session
 chain — a signal of token theft. See
 [Sessions & Tokens](../architecture/sisques-account/sessions-and-tokens.md)
-and ADR-0006 (refresh rotation with reuse detection).
+and [ADR-0006](../adr/0006-refresh-rotation-reuse-detection.md) (refresh
+rotation with reuse detection).
