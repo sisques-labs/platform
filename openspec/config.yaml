@@ -1,0 +1,53 @@
+schema: spec-driven
+
+context: |
+  Tech stack: none (documentation-only repo, no application code).
+  Purpose: cross-app architecture documentation for the Sisques Labs Platform
+  (shared identity/tenancy ecosystem across Gardenia, Nexora, Sisques Account
+  /account-api/account-web, and Portero). Single-owner ecosystem, no external
+  contributors, public GitHub repo under sisques-labs org.
+  Intended shape: README.md, docs/architecture/, docs/adr/, docs/diagrams/
+  (Mermaid), plus a GitHub Pages site (leaning MkDocs + Material) built via
+  GitHub Actions. Nothing has been scaffolded on disk yet besides .gitkeep.
+  Verification will be build-based (e.g. `mkdocs build --strict` or a
+  markdown/link linter) once the docs site scaffold lands in the first change.
+
+strict_tdd: false
+
+projects: []
+
+testing:
+  strict_tdd: false
+  detected: 2026-09-10
+  projects: []
+  notes: |
+    Zero projects discovered (no package.json, go.mod, pyproject.toml,
+    Cargo.toml, or other project markers exist). This is a documentation-only
+    repository; no traditional test runner applies. strict_tdd is false per
+    the no-runner fallback.
+
+rules:
+  proposal:
+    - Include rollback plan for risky changes
+    - Documentation-only scope; no application code or runtime behavior changes
+  specs:
+    - Use Given/When/Then for scenarios
+    - Use RFC 2119 keywords (MUST, SHALL, SHOULD, MAY)
+  design:
+    - Include sequence/C4 diagrams (Mermaid) for complex flows
+    - Document architecture decisions with rationale; prefer one ADR per key decision
+  tasks:
+    - Group by phase, use hierarchical numbering
+    - Keep tasks completable in one session
+  apply:
+    guidelines:
+      - Follow cognitive-doc-design conventions for reader-facing docs
+      - Keep docs/ as the single source of truth for both the repo and the generated site
+    tdd: false
+    test_command: ""
+  verify:
+    test_command: ""
+    build_command: ""
+    coverage_threshold: 0
+  archive:
+    - Warn before merging destructive deltas

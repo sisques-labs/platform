@@ -1,0 +1,29 @@
+change: platform-docs-scaffold
+created: 2026-09-10
+artifact_store: openspec
+current_phase: propose
+phases:
+  explore:
+    status: done
+    completed_at: 2026-09-10
+  research:
+    status: skipped
+  propose:
+    status: done
+    completed_at: 2026-09-10
+  spec:
+    status: done
+    completed_at: 2026-09-10
+  design:
+    status: done
+    completed_at: 2026-09-10
+  tasks:
+    status: done
+    completed_at: 2026-09-10
+  apply:
+    status: not_started
+  verify:
+    status: not_started
+  archive:
+    status: not_started
+next_recommended: sdd-apply
